@@ -10,7 +10,7 @@ on:
 jobs:
   terraform:
      name: "Terraform Apply"
-     runs_on: "ubuntu_latest"
+     runs-on: "ubuntu_latest"
      steps:
        - name: "Configure AWS Credentials"
          uses: aws-actions/configure-aws-credentials@v4
